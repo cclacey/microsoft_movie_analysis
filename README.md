@@ -51,3 +51,8 @@ We make these recommendations because there has been a decline in the amount of 
 Please review our full analysis in our Jupyter Notebook or our presentation. For any additional questions please contact Mallory Wilson at mallorye1103@gmail.com, CeCe Lacey at cecelacey@gmail.com, Qiwen Ou at qwin.ou0721@gmail.com.
 
 # Repository Structure
+├── README.md                           <- The top-level README for reviewers of this project
+├── CQM_Phase1_Project.ipynb   <- Narrative documentation of analysis in Jupyter notebook
+├── DS_Project_Presentation.pdf         <- PDF version of project presentation
+├── data                                <- Both sourced externally and generated from code
+└── images   
