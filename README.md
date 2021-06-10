@@ -44,6 +44,7 @@ After analyzing all of this data, we have come up with three recommendations for
 1. Do not create a movie studio.
 2. Create a streaming platform.
 3. Have both movies and tv shows on the streaming platform to get the most subscribers.
+
 We make these recommendations because there has been a decline in the amount of people going to the movies but an increase in the number of streaming service subscriptions and revenue. We also found that these platforms are the most successful if they have both movies and tv shows.
 
 # For More Information
