@@ -48,7 +48,7 @@ We make these recommendations because there has been a decline in the amount of 
 
 # For More Information
 
-Please review our full analysis in our [Jupyter Notebook](./CQM_Phase1_Project.ipynb) or our presentation. For any additional questions please contact Mallory Wilson at mallorye1103@gmail.com, CeCe Lacey at cecelacey@gmail.com, Qiwen Ou at qwin.ou0721@gmail.com.
+Please review our full analysis in our [Jupyter Notebook](./CQM_Phase1_Project.ipynb) or our [presentation](./Phase_1_PPT.pdf). For any additional questions please contact Mallory Wilson at mallorye1103@gmail.com, CeCe Lacey at cecelacey@gmail.com, Qiwen Ou at qwin.ou0721@gmail.com.
 
 # Repository Structure
 ```
