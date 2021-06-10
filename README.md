@@ -1,60 +1,53 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+# Microsoft Film Industry and Streaming Platform Analysis
 
-![blueprint](images/blueprint.png)
+## Authors:
+Mallory Wilson, CeCe Lacey, Qiwen Ou
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
+# Overview 
 
-## Repository Contents
+This project will analyze what way Microsoft should join the movie industry. Microsoft sees that its competitors are creating their own film content which lead Microsoft to want to create a movie studio. Throughout this project we found data on the number of movie box tickets being sold yearly, the number of subscriptions to different streaming services yearly, the revenue that streaming services are making yearly, what movies or tv shows are on streaming services, and what movies made the most profit and if they were on streaming services or only in theatre. We have decided that Microsoft should make their own streaming service and put their movies on the streaming service. This is because the data tells us that not as many people are going to the movies and buying tickets, but more people are subscribing to streaming services. We think Microsoft would make reap more benefits if they created their own streaming service.
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+# Business Problem
 
-- `README.md`: The README for this repo explaining its contents - you're reading it now.
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project.
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions.
-- `create_sql_database.ipynb`: A notebook for creating a SQL database if you would prefer to use SQL for this project.
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy).
-- `data` folder: A folder for the data you reference with your code.
-- `src` folder: A folder containing custom functions.
-- `images` folder: A folder for the images you reference in your files .
-- `.gitignore`: A hidden file that tells git to not track certain files and folders.
+Microsoft has noticed that its competitors have begun creating their own film content. So, Microsoft has decided to create a new movie studio, but they are unfamiliar with the film sector. However, the appearance of the streaming industry has altered the appeal for movie theatres. With this knowledge, should Microsoft invest in creating a movie studio or a streaming service? We want to know if people are still going to the movies or if streaming services are becoming more popular and making more money overall.
 
-## Instructions For Using This Repository
-
-### Create a new Github repository. 
-If you are working in a group, only one member of your team should complete these steps.
-
-1. Click [this link](https://github.com/new) and set up a new Github  Repository.
-   - Give your repository a name that is descriptive of the project. (You can change this later if you think of a better name)
-   - Set the repository to public
-   - Skip the `Initialize this repository with` section.
-   - Click `Create Repository`
-   - Set your group members as collaboators.
-
-2. Clone the repository you created in step 1
-   - Click the green code button
-   - Copy the provided https link. (It should end with `.git`)
-   - Open a terminal window
-   - cd into your phase 1 folder
-   - Clone the github repository
-   
-3. Pull down the project files
-   - cd into the newly created project folder from step 2
-   - run `git remote add upstream https://github.com/learn-co-students/bsc-phase-1.git`
-   - run `git pull upstream main`   
-
-4. Push the project files to your personal github repository
-
-If you are working in a group, and did not complete the above steps, you should clone the repository made by your team member.
-
-### Use The Slide Template
-
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
+# Data
 
 
+For this project, we used multiple datasets in order to make our case. We found data from The Numbers which gave us information on box office ticket sales over the past years. We found a lot of data from Statista giving us information on the growth of subscriptions to streaming platforms the past few years and a dataset telling us how much money streaming services have been making by year and which movies or tv shows are on which streaming platforms. Finally, we used the create_movies_db to get information on popular movies and compare these movies to ones that are found on different streaming services. All of this data relates to the business question because it helps us be able to tell whether streaming services are becoming more popular and if ticket sales to movies shown in theatres are decreasing.
 
-### Notes
+# Methods
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting.
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go.
-- If you would like to use SQL for this project, please open the `create_sql_database.ipynb` notebook, and run the cells. The schema for the database is stored in the images/ folder.
+This project uses descriptive analysis, looking at movie and streaming service trends over time. We went on Kaggle and Statista to find information on the streaming service industry and movie theratre trends. We then went through the data and cleaned and organized it and then decided on how we wanted to display the information. This approach was taken because in order for us to look at multiple datasets and come up with a decision for Microsoft, we needed to be able to see multiple trends over multiple years.
+
+# Results
+
+The number of tickets sold hit its peak in 2002. After 2002, there is a slight decline in the number of tickets sold. Starting in 2018, there is a rapid decline and we can see that COVID impacted the number of ticket sales greatly, due to the huge decline in 2020. With as large of an impact that COVID had, it is unlikely that ticket sales will ever get as high as they used to be.
+![example](images/tickets_sold_year.png)
+
+
+On average, movies that are found on streaming services make a higher gross profit than movies that are not on streaming platforms. Movies that are making a lot of money are more likely to be on streaming services.
+![example](images/streaming_vs_not.png)
+
+The number of people subscribing to streaming services have been and still are increasing, including Hulu, HBO, and Netflix.
+![example](images/platform_subscribers.png)
+
+The revenue that streaming services are making from the increase in subscribers has been steadily increasing since 2011 and is still increasing.
+![example](images/subscription_revenue.png)
+
+Successful platforms have both movies and tv shows available for streaming.
+![example](images/moviesandtvshows.png)
+
+# Conclusions
+After analyzing all of this data, we have come up with three recommendations for Microsoft:
+
+1. Do not create a movie studio.
+2. Create a streaming platform.
+3. Have both movies and tv shows on the streaming platform to get the most subscribers.
+We make these recommendations because there has been a decline in the amount of people going to the movies but an increase in the number of streaming service subscriptions and revenue. We also found that these platforms are the most successful if they have both movies and tv shows.
+
+# For More Information
+
+Please review our full analysis in our Jupyter Notebook or our presentation. For any additional questions please contact Mallory Wilson at mallorye1103@gmail.com, CeCe Lacey at cecelacey@gmail.com, Qiwen Ou at qwin.ou0721@gmail.com.
+
+# Repository Structure
